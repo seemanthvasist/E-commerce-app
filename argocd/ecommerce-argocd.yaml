@@ -1,3 +1,4 @@
+
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
@@ -18,7 +19,7 @@ spec:
 
   destination:
     server: https://kubernetes.default.svc
-    namespace: vasist-ns 
+    namespace: ecommerce-ns 
 
   syncPolicy:
     automated:
