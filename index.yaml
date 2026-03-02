@@ -3,6 +3,16 @@ entries:
   ecommerce-app:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2026-03-02T06:12:49.394520262Z"
+    description: A Helm chart for Kubernetes
+    digest: 4886d6f34c6855e189426707a0c1ee5365b9778dcd4ae1a92a6c9b40bf5cb657
+    name: ecommerce-app
+    type: application
+    urls:
+    - https://github.com/seemanthvasist/E-commerce-app/releases/download/ecommerce-app-0.1.2/ecommerce-app-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2026-03-02T05:24:12.362304497Z"
     description: A Helm chart for Kubernetes
     digest: 815361ec4e67ebbc19d128f4a5feff9f07f19421f42610cc07339763f6c49c0c
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/seemanthvasist/E-commerce-app/releases/download/ecommerce-app-0.1.1/ecommerce-app-0.1.1.tgz
     version: 0.1.1
-generated: "2026-03-02T05:24:12.362314375Z"
+generated: "2026-03-02T06:12:49.394528508Z"
