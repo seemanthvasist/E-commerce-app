@@ -1,4 +1,4 @@
-namespace: vasist-ns 
+namespace: ecommerce-ns 
 
 replicas: 4
 
