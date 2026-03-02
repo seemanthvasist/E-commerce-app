@@ -1,6 +1,6 @@
 namespace: vasist-ns 
 
-replicas: 5
+replicas: 4
 
 appDeployment:
  labels:
