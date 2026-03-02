@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ecommerce-deployment
-  namespace: ecommerce-ns
+  namespace: vasist-ns
 
 spec:
   replicas: 3
@@ -16,6 +16,6 @@ spec:
     spec:
       containers: 
       - name: vegitable-app
-        image: vinothinisivakumar/e-commerce-app:v3.0.0
+        image: vasist/e-commerce-app:v1.0.0
         ports:
         - containerPort: 80
